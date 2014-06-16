@@ -98,7 +98,7 @@
 		}
 	}
 	
-	/* End of file welcome.php */
+	/* End of file site.php */
 	/* Location: ./application/controllers/site.php */
 
 8 login/application/models/model_site
