@@ -1,4 +1,5 @@
 1 login/application/config/autoload.php
+
 	$autoload['libraries'] = array('database');
 
 2 login/application/config/database.php
