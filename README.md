@@ -23,25 +23,25 @@
 
 6 login/application/views_site
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8">
-	<title>CodeIgniter Login</title>
-</head>
-<body>
-
-<div id="container">
-	<h1>CodeIgniter Login</h1>
-	<?php echo validation_errors();	?>
-    <form method="POST" action="<?php echo base_url();?>">
-    Username : <input type="text" name="username"> 
-	Password : <input type="text" name="password">
-    <input type="submit" value="Submit">
-    </form>
-</div>
-</body>
-</html>
+	<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>CodeIgniter Login</title>
+	</head>
+	<body>
+	
+	<div id="container">
+		<h1>CodeIgniter Login</h1>
+		<?php echo validation_errors();	?>
+	    <form method="POST" action="<?php echo base_url();?>">
+	    Username : <input type="text" name="username"> 
+		Password : <input type="text" name="password">
+	    <input type="submit" value="Submit">
+	    </form>
+	</div>
+	</body>
+	</html>
 
 7 login/application/controllers/site.php
 
