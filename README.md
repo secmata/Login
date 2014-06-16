@@ -45,7 +45,7 @@
 
 7 login/application/controllers/site.php
 
-<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+	<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
 	class Site extends CI_Controller {
 	
